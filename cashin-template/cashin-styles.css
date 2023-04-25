@@ -1,0 +1,68 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}    
+
+.navbar {
+    background-color: darkblue;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button {
+    color: white;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.back-button i {
+    margin-right: 4px;
+}
+
+.back-button:hover i {
+    transform: scale(1.2);
+}
+
+.logo-title-wrapper {
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+}
+
+.logo-title-wrapper img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+/* main content */
+.main-content {
+    margin: auto;
+    padding: auto;
+}
+
+.text-justify-left {
+  text-align: left;
+}
+
+.sub-title {
+    font-size: 18px;
+}
+
+.ordered-list {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.reference {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
